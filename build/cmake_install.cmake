@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Guilherme/Desktop/Virtus/bitdoglab-decibelimetro
+# Install script for directory: C:/Users/Guilherme/Desktop/Virtus/Decibelimetro_BitDogLab
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Guilherme/Desktop/Virtus/bitdoglab-decibelimetro/build/pico-sdk/cmake_install.cmake")
+  include("C:/Users/Guilherme/Desktop/Virtus/Decibelimetro_BitDogLab/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Guilherme/Desktop/Virtus/bitdoglab-decibelimetro/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Guilherme/Desktop/Virtus/Decibelimetro_BitDogLab/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Guilherme/Desktop/Virtus/bitdoglab-decibelimetro/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Guilherme/Desktop/Virtus/Decibelimetro_BitDogLab/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

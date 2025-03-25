@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Guilherme/Desktop/Virtus/bitdoglab-decibelimetro/build/pico-sdk/src/rp2_common/hardware_dma/install_local_manifest.txt"
+  file(WRITE "C:/Users/Guilherme/Desktop/Virtus/Decibelimetro_BitDogLab/build/pico-sdk/src/rp2_common/hardware_dma/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
