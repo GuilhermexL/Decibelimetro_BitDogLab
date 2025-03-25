@@ -54,7 +54,7 @@ Durante o desenvolvimento e testes da biblioteca utilizada, algumas observaçõe
    - A biblioteca utiliza 12 bits de resolução no ADC, o que oferece uma boa precisão, mas em algumas situações de baixo sinal, pode ser interessante considerar um ajuste automático para aumentar a resolução conforme a necessidade.
 
 2. **Calibração do Microfone:**
-   - O cálculo de intensidade e o nível de som em dB SPL dependem de uma calibração inicial precisa do microfone. A fórmula para o cálculo de dB ajustada empiricamente pode ser melhorada para adaptar-se a diferentes microfones e ambientes. Uma possível melhoria seria a implementação de um processo de calibração automática no início do sistema, onde o ambiente e o microfone são analisados para ajustar os parâmetros.
+   - O cálculo de intensidade e o nível de som em decibéis SPL dependem de uma calibração inicial precisa do microfone. A fórmula para o cálculo de decibéis ajustada empiricamente pode ser melhorada para adaptar-se a diferentes microfones e ambientes. Uma possível melhoria seria a implementação de um processo de calibração automática no início do sistema, onde o ambiente e o microfone são analisados para ajustar os parâmetros.
 
 3. **Consistência na Leitura de Amostras:**
    - Embora o DMA tenha sido uma solução eficiente para a captura das amostras, houve algumas variações na consistência dos dados capturados, especialmente em ambientes com interferências elétricas. A implementação de um filtro digital ou um processo de média móvel poderia ser uma solução viável para melhorar a precisão das leituras.
