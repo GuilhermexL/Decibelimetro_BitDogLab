@@ -28,7 +28,7 @@ uint mic_init() {
 
     printf("ADC Configurado!\n\n");
 
-    printf("Preparando DMA...");
+    printf("Preparando DMA...\n");
 
     // Tomando posse de canal do DMA.
     uint dma_channel = dma_claim_unused_channel(true);

@@ -23,4 +23,7 @@ void pwm_init_buzzer(uint pin);
  */
 void beep(uint pin, uint frequency);
 
+void beepOff(uint pin);
+
+
 #endif // BUZZER_FUNCTIONS_H

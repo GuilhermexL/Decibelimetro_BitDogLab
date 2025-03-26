@@ -11,9 +11,6 @@ const char *buzzer_colors[] = {"branco", "rosa", "marrom", "azul", "violeta"};
 const uint num_frequencies = sizeof(buzzer_frequencies) / sizeof(buzzer_frequencies[0]);
 volatile uint current_frequency_index = 0;
 
-// Variável para controlar se o buzzer deve tocar ou parar
-volatile bool buzzer_active = true;
-
 // Variáveis para debouncing
 volatile uint32_t last_button_a_press = 0;
 volatile uint32_t last_button_b_press = 0;
@@ -49,6 +46,7 @@ void pwm_init_buzzer(uint pin)
     pwm_set_gpio_level(pin, 0);
 }
 
+// Função para emitir um beep
 void beep(uint pin, uint frequency) {
     // Obtém o slice do PWM associado ao pino
     uint slice_num = pwm_gpio_to_slice_num(pin);
@@ -62,5 +60,12 @@ void beep(uint pin, uint frequency) {
 
     // Habilita o PWM
     pwm_set_enabled(slice_num, true);
+
 }
 
+// Função para desligar o buzzer
+void beepOff(uint pin)
+{
+    // Desativa o sinal PWM (duty cycle 0)
+    pwm_set_gpio_level(pin, 0);
+}
