@@ -32,10 +32,10 @@ OBS: Utilizamos nossa biblioteca de [Display](https://github.com/aryelson1/Displ
 ### Hardware Utilizado
 
 - 1x Placa BitDogLab
-- 1x Microfone
+- 1x Botão para iniciar
+- 1x Microfone para captar ruído
 - 1x Display (imprimir resultado)
 - 1x Buzzer (ativo ou passivo)
-- 1x Botão para calibração
 
 ### Conexões
 
