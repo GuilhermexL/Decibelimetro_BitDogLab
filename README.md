@@ -113,6 +113,8 @@ Abaixo está um GIF demonstrando o funcionamento do projeto na placa:
 
 Este projeto demonstra a captura e análise de níveis sonoros utilizando a BitDogLab. Ele pode ser expandido para incluir novas funcionalidades, como a integração com uma interface web para visualização dos dados coletados.
 
+Acesse o documento do projeto em PDF [aqui](/doc/Análise%20Crítica%20do%20Projeto%20Final.pdf)
+
 ---
 
 ## Referências
